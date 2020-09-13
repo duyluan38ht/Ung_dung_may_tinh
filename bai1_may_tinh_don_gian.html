@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Caculator</h1>
+<input type="" id="id1">
+<input type="" id="id2"><br><br>
+<button onclick="phepCong()" id="id3">Addition(+)</button>
+<button onclick="phepTru()" id="id4">Subtraction(-)</button>
+<button onclick="phepNhan()" id="id5">Multiplication(X)</button>
+<button onclick="phepChia()" id="id6">Division(/)</button>
+<p id="id7"></b></p>
+<script>
+    function phepChia() {
+        let value1 = document.getElementById('id1').value;
+        let value2 = document.getElementById('id2').value;
+        let value6 = document.getElementById('id6').value;
+        let ResultDivision = value1 / value2;
+        document.getElementById('id7').innerText ='Result Division:' +ResultDivision;
+    }
+</script>
+</body>
+</html>
